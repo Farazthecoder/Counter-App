@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    padding: 2rem;
+    background-color: sandybrown;
+}
+
+main {
+    max-width: 50rem;
+    background-color: lemonchiffon;
+    height: 25rem;
+    margin: 15rem auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4rem;
+    gap: 3rem;
+    border: 5px solid saddlebrown;
+    /* border-left: 5px solid black; */
+    /* animation-name: rotator;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; */
+}
+
+h1 {
+    font-size: 4rem;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.buttons {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+
+    /* background-color: black; */
+}
+
+.buttons>button {
+    font-size: 3rem;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    border: 3px solid burlywood;
+    color: chocolate;
+    background-color: black;
+}
+
+.buttons>button:hover {
+    background-color: chocolate;
+    color: black;
+}
+
+/* 
+@keyframes rotator {
+    0% {
+        border-left: 5px solid black;
+    }
+
+    10% {
+        border-bottom: 5px solid black;
+    }
+
+    20% {
+        border-right: 5px solid black;
+    }
+
+    30% {
+        border-top: 5px solid black;
+    }
+
+    40% {
+        border-left: 5px solid black;
+    }
+
+    50% {
+        border-bottom: 5px solid black;
+    }
+
+    60% {
+        border-right: 5px solid black;
+    }
+
+    70% {
+        border-top: 5px solid black;
+    }
+
+    80% {
+        border-left: 5px solid black;
+    }
+
+    90% {
+        border-bottom: 5px solid black;
+    }
+
+    100%{
+        border-right: 5px solid black;
+     }
+
+
+
+} */
